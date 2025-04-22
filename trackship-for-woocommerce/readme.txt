@@ -2,9 +2,9 @@
 Contributors: TrackShip
 Tags: WooCommerce, parcel tracking, woocommerce shipment tracking, order tracking, tracking
 Requires at least: 6.2
-Tested up to: 6.7.2
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.9.1
+Stable tag: 1.9.2
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -137,9 +137,17 @@ Yes, When you sign up for your TrackShip account,  you’ll get a free 50 shipme
 No. You can fully test out TrackShip and all the features with the free trial Trackers without adding a credit card. It is completely up to you if you would like to carry on using TrackShip after your trial has ended.
 
 == Changelog ==
+= 1.9.2 - 2025-04-22 =
+* Improvement - Enhanced Late Shipment email logic to include shipments with the "Available for Pickup" status.
+* Fix - Resolved a translation-related warning in WordPress 6.8.
+* Update - Updated translations for improved language support.
+* Improvement - Implemented data migration for TrackShip Customizer settings.
+* Improvement - Optimized TrackShip Analytics query to enhance performance and prevent SQL injection vulnerabilities.
+* Compatibility - Verified compatibility with WooCommerce version 9.8.1.
+* Compatibility - Tested and confirmed compatibility with WordPress version 6.8.
+
 = 1.9.1 - 2025-03-12 =
 * Enhancement - Added integration with Omnisend.
-* Enhancement - Shipment status emails now display the latest tracking event.
 * Enhancement - Added more filters to TrackShip Shipments for shipment status customization.
 * Fix - Resolved a CSS conflict on the WooCommerce order page.
 * Fix - Fixed a warning for an undefined variable in the WooCommerce order tracking plugin.
